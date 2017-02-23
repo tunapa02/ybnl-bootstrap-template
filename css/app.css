@@ -1,0 +1,313 @@
+body {
+  padding-top: 50px;
+}
+
+
+.em-text {
+    
+    color:#1caa98 !important;
+}
+
+
+.ybnl-yellow {
+    
+    color:yellow !important;
+}
+
+
+.ybnl-black {
+    
+    color:#000 !important;
+}
+
+
+.col-md-4 {
+    margin-bottom: 20px;
+    
+}
+
+section {
+    
+    padding: 40px 0 40px 0;
+}
+
+
+.jumbotron {
+    
+    background: #1b222a url(../img/bag12.jpg) no-repeat ;
+    color: #fff;
+    height: 500px;
+    overflow:none; 
+}
+
+
+.jumbotron h1{
+    
+    margin-top: 60px;
+    
+}
+
+.jumbotron p {
+    
+    margin-bottom: 50px;
+    
+}
+
+.jumbotron .app-btn {
+    
+    width:40%;
+    margin-right:30px;
+    border-radius: 10px;
+    
+}
+
+
+.jumbotron .showcase-img{
+    
+    width:75%;
+   
+}
+
+
+img.demo {
+    
+   width: 100%;
+    padding: 3px;
+    border: 2px solid #ccc;
+}
+
+
+.text-shadow-dark {
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 1px 25px rgba(0, 0, 0, 0.75);
+}
+              
+.text-shadow-white {
+    text-shadow: 0 1px 1px #fff, 0 1px 25px #fff;
+}    
+
+/*
+       .alt-h1 {
+      font-size: 60px;
+      font-weight: bold;       
+  } */
+  
+
+section#feature {
+    
+    background: #1caa98;
+    color: #fff;
+    padding: 40px;
+    overflow: auto;
+    
+    
+}
+
+
+
+section#feature ul li {
+    
+    list-style: none;
+    font-size: 22px;
+    line-height: 2em;
+    
+}
+
+
+section#feature ul {
+    padding: 0;
+    margin: 0;
+}
+
+
+section#title-bar {
+    padding: 0;
+    margin: 0;
+    background: #1caa98;
+    height:80px;
+    color: #fff;
+}
+
+section#title-bar h1{
+    
+    margin-bottom: 20px;
+}
+
+      footer {
+    
+          padding: 50px 0;
+          background-color: #f8f8f8;
+}
+
+/*
+footer {
+    
+    background: #333;
+    color:#fff;
+    padding: 30px 0 20px 0;
+    
+}
+
+
+footer li {
+    float:left;
+    padding: 0 10px 0 10px;
+    list-style: none;
+    
+}
+
+
+footer a {
+    
+    color:white;
+    
+}
+
+
+
+footer p {
+    
+    float: right;
+}
+
+*/
+
+/* MEDIA QUERIES */
+
+
+@media(max-width: 1200px){
+    
+   
+    .jumbotron .showcase-img{
+    
+    width:91%;
+   
+}
+
+    
+}
+
+
+
+@media(max-width: 991px){
+    
+    .showcase-img{
+        
+        display: none;
+    }
+    
+    
+    .jumbotron {
+    
+        text-align: center;
+        
+    }   
+    
+    
+}
+
+
+@media(min-width: 768px) and (max-width: 990px){
+    
+   .jumbotron .app-btn {
+    
+        width:30%;
+        
+
+    }
+    
+    .jumbotron {
+    
+        height:400px !important;
+        background-size: 100% 100%;
+        
+    }    
+    
+    .jumbotron h1{
+        
+        margin-top: 10px;
+        
+    }
+    
+    
+    
+}
+
+
+
+
+@media(max-width: 768px){
+    
+    .jumbotron {
+    
+        height:350px !important;
+        background-size: 100% 100%;
+        
+    }   
+    
+     .jumbotron h1{
+        
+        margin-top: 10px;
+        
+    }
+    
+    
+    
+    
+   
+    
+}
+
+
+@media(max-width: 750px){
+    
+    .big-logo{
+        
+        margin:0 auto 20px auto;
+        display: block;
+    }
+ 
+    section#feature {
+        
+          
+        text-align: center;
+    }
+    
+}
+
+
+
+/* MOBILE PHONES */
+@media(max-width: 500px){
+    
+   .jumbotron {
+    
+        height:450px !important;
+        
+        text-align: center;
+        
+    }   
+    
+    
+   .jumbotron .app-btn {
+    
+        width:60%;
+        margin:0 auto 30px auto;
+        display: block;
+        border-radius: 10px;
+
+    }
+    
+    
+    section#feature ul li{
+        
+        font-size: 19px !important;
+    } 
+    
+    
+   
+    
+   
+    
+     
+    
+}
